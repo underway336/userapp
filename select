@@ -1,0 +1,6 @@
+Server is running on port 8080.
+Executing (default): DROP TABLE IF EXISTS `users`;
+Executing (default): DROP TABLE IF EXISTS `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255) NOT NULL, `age` INTEGER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+Executing (default): SHOW INDEX FROM `users`
+Drop and re-sync db.
